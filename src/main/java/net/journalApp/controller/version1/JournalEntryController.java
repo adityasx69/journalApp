@@ -1,7 +1,7 @@
-package net.engineeringdigest.journalApp.controller.version1;
+/* package net.journalApp.controller.version1;
 
 import java.util.*;
-import net.engineeringdigest.journalApp.entity.JournalEntry;
+import net.journalApp.entity.JournalEntry;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -38,3 +38,4 @@ public class JournalEntryController {
         return journalEntries.put(id, myEntry);
     }
 }
+ */

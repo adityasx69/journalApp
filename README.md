@@ -23,7 +23,7 @@ A Spring Boot based Journal Application built for creating, updating, viewing, a
 src/
 ├── main/
 │   ├── java/
-│   │   └── net/engineeringdigest/journalApp/
+│   │   └── net/journalApp/
 │   └── resources/
 └── test/
 ```
