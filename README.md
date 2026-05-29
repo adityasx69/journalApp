@@ -1,42 +1,103 @@
 # Journal App
 
-A Spring Boot based Journal Application built for creating, updating, viewing, and managing journal entries.
+A full-stack journal management application designed to help users create, organize, and manage personal journal entries securely.
 
-## Tech Stack
-- Java
-- Spring Boot
-- Maven
-- MongoDB
-- IntelliJ IDEA
+> Status: Active Project  
+> Core functionality is implemented
+
+---
 
 ## Features
-- Create journal entries
-- View journal entries
-- Update journal entries
-- Delete journal entries
-- REST API endpoints
-- Health check endpoint
 
-## Project Structure
+- User management APIs
+- Journal CRUD operations
+- MongoDB integration
+- RESTful backend architecture
+- Layered Spring Boot application structure
 
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── net/journalApp/
-│   └── resources/
-└── test/
-```
+---
 
-## API
-Example:
+## Future Enhancements
 
-```http
-POST /journal
-GET /journal
-PUT /journal/{id}
-DELETE /journal/{id}
-```
+- Spring Security integration
+- JWT authentication and authorization
+- Password encryption
+- Search and filtering
+- Tags and categories for journal entries
+- File and image attachments
+- Swagger/OpenAPI documentation
+- Docker support
+- CI/CD pipeline
+- Cloud deployment
+- Automated testing and monitoring
+
+---
+
+## Tech Stack
+
+### Backend
+
+- Java
+- Spring Boot
+- Spring Data MongoDB
+- Maven
+- Lombok
+
+### Database
+
+- MongoDB
+
+### Frontend (Planned)
+
+- React
+- TypeScript
+- Tailwind CSS
+- REST API Integration
+
+---
+
+## 📂 Project Architecture
+
+<div align="center">
+  <img src="assets/architecture.png" alt="Journal App Architecture" width="600">
+</div>
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Java 17+
+- Maven
+- MongoDB
+
+## API Overview
+
+### User APIs
+
+| Method | Endpoint |
+|----------|----------|
+| GET | /user |
+| POST | /user |
+| PUT | /user |
+| DELETE | /user |
+
+### Journal APIs
+
+| Method | Endpoint |
+|----------|----------|
+| GET | /journal |
+| POST | /journal |
+| PUT | /journal/{id} |
+| DELETE | /journal/{id} |
+
+---
 
 ## Author
-Aditya
+
+Aditya Saraswat
+
+---
+
+⭐ If you found this project interesting, consider starring the repository.
