@@ -35,7 +35,9 @@ A personal journal management backend built with Spring Boot and MongoDB
 
 ## Project Architecture
 
-
+<div align="center">
+  <img src="assets/architecture.png" alt="Journal App Architecture" width="600">
+</div>
 
 ---
 
