@@ -13,6 +13,7 @@ logs/
 # Local env
 .env
 application-local.yml
+/Users/adityasaraswat/Downloads/Aditya/Codes/journalApp/src/main/resources/application.yml
 
 # STS
 .apt_generated
